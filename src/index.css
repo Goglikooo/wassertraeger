@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Impact";
+  src: local("Impact"), url("./fonts/impact.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Impacted";
+  src: local("Impacted"), url("./fonts/impacted.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Unicode.impact";
+  src: local("Unicode.impact"),
+    url("./fonts/unicode.impact.ttf") format("truetype");
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

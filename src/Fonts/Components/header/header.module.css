@@ -1,0 +1,44 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  gap: 20px;
+}
+
+.main_header {
+  max-width: 50%;
+}
+
+.main_header_text {
+  font-family: Impact;
+  font-size: 120px;
+  margin: 0;
+  color: #ff009e;
+}
+
+.navigation {
+  width: 100%;
+  padding: 0;
+}
+
+.navigation_elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-family: Impact;
+}
+
+.nav_item {
+  list-style-type: none;
+  min-width: 200px;
+  font-size: 40px;
+  color: #ff009e;
+  text-align: center;
+}
+.nav_item:hover {
+  cursor: pointer;
+  color: #ffaa00;
+  font-size: 55px;
+}

@@ -1,0 +1,25 @@
+.under_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: Impact;
+}
+
+.nico {
+  font-size: 240px;
+  margin-top: -50px;
+  color: #d861ff;
+}
+.header_image {
+  max-width: 140px;
+  height: auto;
+  margin-top: -50px;
+}
+
+.artwork {
+  font-size: 240px;
+  max-width: auto;
+  margin-top: -50px;
+  color: #ffaa00;
+}
